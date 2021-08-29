@@ -1,0 +1,27 @@
+Some Important Commands
+
+-> git add .                   -> to add all file of current directory into staging area.
+
+-> git log                     -> to check The staus to commit file in local repo.
+
+-> git commit -m "message"     -> commit files with the message to local repository.
+
+-> git rm --cached -r          -> remove all files from staging area.
+
+-> rm -rf .git                 ->  to remove all the commited file from local repositories
+
+-> git remote add [alias] [url] -> add a git URL as an alias.
+
+-> git push [alias] [branch]   ->  Transmit local branch commits to the remote repository branch
+
+-> git remote rm origin         -> Unlinking a locally cloned repository from its GitHub origin.
+
+-> touch .gitignore             ->to create hidden files which we dont want to show publically.
+
+//for forking and pull requests.
+
+Fork basically used when we have to copy any repo which is open source and want to start working on it.
+Fork will make a copy of that repo into your github remote repo. Now you can clone it on your local repo and start working on it as if you 
+do any great changes or fixed a bug and wanted to merge with the original master branch but you dont have the write permission than here
+we comes with the pull request.
+It basically ask the owner to pull the request and merge it to master branch.
