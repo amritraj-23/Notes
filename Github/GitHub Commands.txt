@@ -18,6 +18,12 @@ Some Important Commands
 
 -> touch .gitignore             ->to create hidden files which we dont want to show publically.
 
+-> git --version               -> To check the current version of git
+
+-> git update-git-for-windows  -> for Updation Of Github Using CMP.
+
+->git config http.postBuffer 524288000  -> if there is issue in updation then use this;
+
 //for forking and pull requests.
 
 Fork basically used when we have to copy any repo which is open source and want to start working on it.
