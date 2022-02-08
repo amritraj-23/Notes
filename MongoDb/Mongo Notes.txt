@@ -1,0 +1,21 @@
+show dbs => to get all database
+
+use databaseName => To create dataBase OR TO Switch The Database
+
+db   => to check current database
+
+show collections => To Check all the collections in The DataBase
+
+
+db.CollectionName.find().pretty() =>to look the database in prettier way
+
+
+db.dropDatabase()  => To drop the current DataBase
+
+
+db.collection.drop() => To drop The collection
+
+
+
+
+
