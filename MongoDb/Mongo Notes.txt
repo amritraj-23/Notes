@@ -15,6 +15,45 @@ db.dropDatabase()  => To drop the current DataBase
 
 db.collection.drop() => To drop The collection
 
+Table => Collection
+Row   => Documents
+Column => Fields
+
+
+
+                               MONGODB CRUD OPERATION
+
+db.collectionName.insertOne({})
+db.collectionName.insertMany([{},{}])
+                          
+                               Read From DataBase
+db.collection.find(query,projection)
+Projection => It Means Which specific field we Want to Do Dispay by assinging 0 or 1
+
+db.collection.find() => to get all the data from collection
+db.collection.find({name:"amrit"})  => to find the particular data
+db.collection.find({name:"amrit:},{name:1})   => To get only Specific feild only
+db.collection.find({name:"amrit"}).limit(2)   => means It display only first two data
+db.collection.find({name:"amrit"}).skip(1) => it skip the first data
+
+                                   Update In DataBase
+
+Synax =>  db.collection.updateOne(filter,update)
+
+
+db.collection.updateOne({name:"amrit"},{$set:{age:25}})  =>to Update in the present data
+db.collection.updateMany({name:"amrit"},{$set:{age:25}}) =>to Update all data which macthed the condition
+
+                                 
+                                  Delete Operation in DataBase
+
+db.collection.deleteMany({}) => it will delete all the documents in the collection
+
+db.collection.deleteMany({name:"amrit"}) =>it will delete all the matches documents in the collection
+
+
+
+
 
 
 
