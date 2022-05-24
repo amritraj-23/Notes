@@ -1,3 +1,7 @@
+mongo => To Run The Shell 
+
+mongod => to perform action which we run on a shell of mongo
+
 show dbs => to get all database
 
 use databaseName => To create dataBase OR TO Switch The Database
