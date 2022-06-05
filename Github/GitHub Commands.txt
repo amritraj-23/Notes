@@ -10,7 +10,7 @@ Some Important Commands
 
 ->git checkout filename        -> to restore the previous data from the last commit
 
--> git rm --cached -r          -> remove all files from staging area.
+-> git rm --cached -r .        -> remove all files from staging area.
 
 -> rm -rf .git                 ->  to remove all the commited file from local repositories
 
