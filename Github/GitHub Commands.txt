@@ -6,6 +6,10 @@ Some Important Commands
 
 -> git commit -m "message"     -> commit files with the message to local repository.
 
+->git diff filename            -> to check the difference in the data 
+
+->git checkout filename        -> to restore the previous data from the last commit
+
 -> git rm --cached -r          -> remove all files from staging area.
 
 -> rm -rf .git                 ->  to remove all the commited file from local repositories
